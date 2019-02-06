@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Caesar agency offers you quality solutions for your ideas. With passion and care we create the most breathtaking web and mobile applications. Contact Caesar agency for cheap and quality guaranteed solution." />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+    <title>CityCoin</title>
+  </head>
+  <body>
+    <div id="loading" class="text-center">
+        <div class="container text-center">
+            <div class="row text-center mt-3" style="justify-content: center;">
+                <div class="loader" />
+            </div>
+        </div>
+    </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <a class="navbar-brand" href="http://www.caesar.agency/"><img src="images/logo.png" class="mr-3 nav-logo" height="35" />CityCoin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-center">
+            </ul>
+        </div>
+    </nav>
+    <div id="fullpage">
+      <div class="section">
+        <div class="container text-left">
+          <div class="row">
+            <div class="col-6 align-self-center">
+              <h1>
+                Welcome to the new era <br /> of <span class="color-red">smart</span> cities.
+              </h1>
+              <p class="subtext">
+                Creating a smart city has never been easier.
+              </p>
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="images/figure4.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container text-left">
+          <div class="row">
+            <div class="col-6 align-self-center">
+              <h1>
+                Ensure your citizens <br /> get <span class="color-red">100%</span> of your services.
+              </h1>
+              <p class="subtext">
+                All services are compatible with CityCoin.
+              </p>
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="images/figure3.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container text-left">
+          <div class="row">
+            <div class="col-6 align-self-center">
+              <h1>
+                  <span class="color-red">Easily</span> manage <br /> services, subscriptions & supervisors for your city.
+              </h1>
+              <p class="subtext">
+                Your whole city in a dashboard.
+              </p>
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="images/figure2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(() => {
+                $('#loading').fadeOut('slow');
+            }, 500);
+            $('#fullpage').fullpage({
+                navigation: true,
+		        navigationPosition: 'right',
+                anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6']
+            });
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
