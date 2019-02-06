@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
   res.render('/static/index.html');
 });
 
-http.createServer(app).listen(3001);
+http.createServer(app).listen(process.env.PORT || 3001);
