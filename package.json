@@ -20,5 +20,8 @@
   "homepage": "https://github.com/AntonioErdeljac/citycoin-landing#readme",
   "dependencies": {
     "express": "4.16.4"
+  },
+  "engines": {
+    "node": "8.11.4"
   }
 }
