@@ -171,3 +171,54 @@ button:focus {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
+
+.card {
+    padding: 20px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,.01);
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'PoppinsMedium';
+    font-size: 40px;
+    color: #4E65F6;
+}
+
+.card-price {
+    font-family: 'PoppinsMedium';
+    font-size: 30px;
+    margin: 0 !important;
+    color: rgba(0,0,0,.65);
+}
+
+.card-price-month {
+    font-family: 'PoppinsLight';
+    font-size: 15px;
+    color: rgba(0,0,0,.5);
+}
+
+.card-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0,0,0,.65);
+}
+
+.card-feature-bold {
+    font-family: 'PoppinsMedium';
+    color: rgba(0,0,0,.65);
+}
+
+.fa-check {
+    color: #1fcf7c;
+}
+
+.fp-prev {
+    border-color: transparent rgba(0,0,0,.4) transparent transparent !important;
+}
+
+.fp-next {
+    border-color: transparent transparent transparent rgba(0,0,0,.4) !important;
+}

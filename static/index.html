@@ -36,7 +36,7 @@
         </div>
     </nav>
     <div id="fullpage">
-      <div class="section">
+      <div class="section" data-anchor="section1">
         <div class="container text-left">
           <div class="row">
             <div class="col-md-6 col-12 align-self-center">
@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div class="section">
+      <div class="section" data-anchor="section2">
         <div class="container text-left">
           <div class="row">
             <div class="col-md-6 col-12 align-self-center">
@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="section">
+      <div class="section" data-anchor="section3">
         <div class="container text-left">
           <div class="row">
             <div class="col-md-6 col-12 align-self-center">
@@ -85,6 +85,56 @@
               <img class="img-fluid" src="images/figure2.png" />
             </div>
           </div>
+        </div>
+      </div>
+      <div class="section" data-anchor="section4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-12 d-none d-md-block align-self-center">
+                  <h1>
+                    <span class="color-red">Basic</span> pack for future <br /> smart cities.
+                  </h1>
+                  <p class="subtext">
+                    Perfect for growing cities.
+                </p>
+              </div>
+              <div class="col-lg-4 offset-lg-2 col-sm-8 col-md-6 col-xs-12 col-12">
+                <div class="card">
+                  <p class="card-title">Basic Pack</p>
+                  <p class="card-price">150$<span class="card-price-month">/mo</span></p>
+                  <hr class="my-4" />
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">1</span> City</span></p>
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">15,000</span> Citizens</span></p>
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">1,000</span> Supervisors</span></p>
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">500</span> Services</span></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="section" data-anchor="section5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-12 d-none d-md-block align-self-center">
+                  <h1>
+                    <span class="color-red">Enterprise</span> pack for big <br/> and growing cities
+                  </h1>
+                  <p class="subtext">
+                    Perfect for big & growing cities.
+                </p>
+              </div>
+              <div class="col-lg-4 offset-lg-2 col-sm-8 col-md-6 col-xs-12 col-12">
+                <div class="card">
+                  <p class="card-title">Enterprise Pack</p>
+                  <p class="card-price">750$<span class="card-price-month">/mo</span></p>
+                  <hr class="my-4" />
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">5</span> Cities</span></p>
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">100,000</span> Citizens</span></p>
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">10,000</span> Supervisors</span></p>
+                  <p class="card-feature"><i class="fas fa-check"></i><span><span class="card-feature-bold">1,500</span> Services</span></p>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -104,8 +154,8 @@
             }, 500);
             $('#fullpage').fullpage({
                 navigation: true,
-		        navigationPosition: 'right',
-                anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6']
+		            navigationPosition: 'right',
+                anchors: ['section1', 'section2', 'section3', 'section4', 'section5']
             });
         });
     </script>
